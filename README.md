@@ -9,7 +9,7 @@
 
 - 🔭 I’m currently working on **MyClassroom**
 
-- 🌱 I’m currently learning **Next.js,C++, q**
+- 🌱 I’m currently learning **Next.js, C++, Java, React.js**
 
 - 👯 I’m looking to collaborate on **MyClassroom**
 
