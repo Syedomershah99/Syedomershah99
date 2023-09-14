@@ -1,4 +1,4 @@
-//![logo]()
+![[logo](https://media.licdn.com/dms/image/D5616AQGpIhcxoObQlg/profile-displaybackgroundimage-shrink_350_1400/0/1687172368018?e=1700092800&v=beta&t=a2gpd7kMsZO1BqN9G_pX-7dby75i64csr32-Xrz9bAg)]()
 <h1 align="center">Hi 👋, I'm Syed Omer Shah</h1>
 <h3 align="center">A passionate frontend developer from India</h3>
 
