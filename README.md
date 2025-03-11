@@ -1,5 +1,3 @@
-![logo](https://media.licdn.com/dms/image/D5616AQGUEOioyGTpsw/profile-displaybackgroundimage-shrink_350_1400/0/1718500582082?e=1724284800&v=beta&t=cjNr1ST2c4bICDA-GjikicRE43kVb-tewZ4-nNZDLl4)
-
 <h1 align="center">Hi 👋, I'm Syed Omer Shah</h1>
 <h3 align="center">A passionate software developer from India</h3>
 
