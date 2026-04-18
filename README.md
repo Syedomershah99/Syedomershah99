@@ -23,7 +23,7 @@ class Omer:
     
     def currently_building(self):
         return [
-            "Physics-Informed Neural Nets for medical imaging (SC-SPECT)",
+            "Bayesian Optimization for SPECT hardware design on HPC",
             "Bayesian Optimization for polymer discovery",
             "Agentic pipelines with LangGraph & CrewAI",
         ]
@@ -43,7 +43,7 @@ class Omer:
 **Research**
 - Multi-modal Transformers (GNN + 3D fusion)
 - Bayesian Optimization for materials discovery
-- ML surrogates for medical imaging on HPC
+- Bayesian Optimization for medical imaging on HPC
 - 4 publications (arXiv, Springer, SNMMI)
 
 </td>
