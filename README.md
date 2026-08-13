@@ -142,6 +142,7 @@ class Omer:
 ### GitHub Stats
 
 <div align="center">
+
 <img src="stats.svg" alt="GitHub stats" width="840" />
 
 <picture>
@@ -150,6 +151,19 @@ class Omer:
   <img alt="snake eating my contribution graph" src="https://raw.githubusercontent.com/Syedomershah99/Syedomershah99/output/github-snake.svg" width="840" />
 </picture>
 
+</div>
+
+---
+
+### Voiceprint
+
+I built [being-human](https://github.com/Syedomershah99/being-human), which measures
+how a person actually writes and makes the model write that way instead of like a
+press release. So here is mine, measured by my own tool. Every bar is one real
+sentence I wrote.
+
+<div align="center">
+<img src="voiceprint.svg" alt="my writing, measured by being-human" width="840" />
 </div>
 
 ---
