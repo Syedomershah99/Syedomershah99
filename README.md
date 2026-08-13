@@ -143,6 +143,13 @@ class Omer:
 
 <div align="center">
 <img src="stats.svg" alt="GitHub stats" width="840" />
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Syedomershah99/Syedomershah99/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Syedomershah99/Syedomershah99/output/github-snake.svg" />
+  <img alt="snake eating my contribution graph" src="https://raw.githubusercontent.com/Syedomershah99/Syedomershah99/output/github-snake.svg" width="840" />
+</picture>
+
 </div>
 
 ---
