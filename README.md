@@ -153,18 +153,6 @@ class Omer:
 
 </div>
 
----
-
-### Voiceprint
-
-I built [being-human](https://github.com/Syedomershah99/being-human), which measures
-how a person actually writes and makes the model write that way instead of like a
-press release. So here is mine, measured by my own tool. Every bar is one real
-sentence I wrote.
-
-<div align="center">
-<img src="voiceprint.svg" alt="my writing, measured by being-human" width="840" />
-</div>
 
 ---
 
