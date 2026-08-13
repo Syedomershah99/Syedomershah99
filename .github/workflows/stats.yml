@@ -1,0 +1,43 @@
+name: refresh stats
+
+# The card is a committed file, not a hotlink, so it needs redrawing on a
+# schedule. Daily is plenty -- and unlike a third-party widget, a failed run
+# leaves yesterday's card in place rather than a broken image.
+on:
+  schedule:
+    - cron: "17 4 * * *"
+  workflow_dispatch:
+  push:
+    paths:
+      - ".github/scripts/stats.py"
+      - ".github/workflows/stats.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: draw the card
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 .github/scripts/stats.py --user ${{ github.repository_owner }} --out stats.svg
+
+      - name: commit if it changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet stats.svg; then
+            echo "no change"
+            exit 0
+          fi
+          git add stats.svg
+          git commit -m "stats: refresh $(date -u +%Y-%m-%d)"
+          git push
